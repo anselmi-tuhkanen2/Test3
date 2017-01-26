@@ -23,4 +23,5 @@ group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
 end
 
-gem 'hash-joiner'
+gem 'json'
+gem 'rest-client'
