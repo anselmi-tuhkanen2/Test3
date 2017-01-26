@@ -10,7 +10,7 @@ module Jekyll_Get
 
       response = RestClient::Request.new(
         :method => :get,
-        :url =>  + 'https://app.snipcart.com/api/products',
+        :url =>  'https://app.snipcart.com/api/products',
         :user => ENV['snipcart_api'],
         :password => '',
         :headers => { :accept => :json,
