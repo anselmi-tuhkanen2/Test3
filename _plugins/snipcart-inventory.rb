@@ -8,11 +8,9 @@ module Jekyll_Get
 
     def generate(site)
 
-      @url = 'https://app.snipcart.com/api/products'
-
       response = RestClient::Request.new(
         :method => :get,
-        :url =>  + @url,
+        :url =>  + 'https://app.snipcart.com/api/products',
         :user => ENV['snipcart_api'],
         :password => '',
         :headers => { :accept => :json,
