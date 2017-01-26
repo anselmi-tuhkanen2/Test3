@@ -4,3 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+foo: {{ site.data.foo }}
+data:
+{% for member in site.data.json %}
+  Hello {{ member[1].title }}
+{% endfor %}

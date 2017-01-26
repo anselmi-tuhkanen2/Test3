@@ -32,3 +32,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  
+jekyll_get:
+  data: json
+  json: 'https://jsonplaceholder.typicode.com/posts'
+
