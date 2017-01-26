@@ -4,7 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-foo: {{ site.data.foo }}
+secret: {{ site.data.secret }}
+
 data:
 {% for member in site.data.json %}
   Hello {{ member[1].title }}

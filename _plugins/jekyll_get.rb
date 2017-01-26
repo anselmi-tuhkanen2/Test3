@@ -9,7 +9,12 @@ module Jekyll_Get
 
     def generate(site)
       site.data['foo'] = ENV['PATH']
-    
+      site.data['secret'] = ENV['secret']
+
+      site.data['env'] = {}
+      ENV.each do |key, value|
+        site.data['env'][key] = value
+      end
 
 
 
