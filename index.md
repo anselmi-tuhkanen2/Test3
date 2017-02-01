@@ -4,5 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-inventory: {{ site.data.inventory }}
+inventory2: {{ site.data.inventory }}
 
