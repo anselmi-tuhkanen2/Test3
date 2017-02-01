@@ -4,5 +4,13 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-inventory2: {{ site.data.inventory }}
+ 
+foo2: {{ site.data | jsonify}}
+
+prods:
+{% for product in site.data.products %}
+{{ product.name }}
+{% endfor %}
+
+inventory4: {{ site.data.inventory }}
 
