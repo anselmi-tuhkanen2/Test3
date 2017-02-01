@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "a1",
         "name":  "Prod 1",
         "url": "/products.json",
         "price": 20.00,
@@ -37,10 +37,10 @@
     },
     
     {
-        "id": "2",
+        "id": "a2",
         "name":  "Prod 2",
         "url": "/products.json",
-        "price": 20.00,
+        "price": 10.00,
         "image": "http://placehold.it/300x300",
         "inventoryManagementMethod":  "Variant", 
         "variants": [
